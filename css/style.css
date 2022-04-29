@@ -32,10 +32,21 @@ body {
     transition-duration: 1s;
   }
 
+  nav a:active {
+    background-color: #fff;
+    color: #444
+  }
+
+  h1 {
+    text-align: center;
+  }
+
   .card {
     float: left;
-    width: 15%;
+    width: 30%;
     margin-left: 15%;
+    max-width: 260px;
+    min-width: 150px;
   }
 
   .card a {
@@ -47,6 +58,3 @@ body {
     height: 180px;
   }
 
-  h2 {
-    text-align: center;
-  }
